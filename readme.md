@@ -15,7 +15,7 @@ I have identified the following collections:
 ## Domain Model (draft)
 The domain model draft for the design of the system.
 
-![DOMAIN MODEL](https://drive.google.com/file/d/1yNT_7Du56-a2Z5P5VW0EBBPCHvAQKrem/view?usp=sharing)
+![DOMAIN MODEL](/domain-model.png)
 
 
 ## Collections and Endpoints
@@ -47,6 +47,7 @@ GET ---> POST ---> PUT/PATCH ---> DELETE
 | PUT |  /systems/{systemId}| replace the whole resource |
 | PATCH |  /systems/{systemId}| partial update |
 | DELETE |  /systems/{systemId}| delete |
+
 **Sub-collections for Systems**
 |Method| Endpoint |Comment |
 |--|--|--|
@@ -74,6 +75,7 @@ GET ---> POST ---> PUT/PATCH ---> DELETE
 | PUT |  /planets/{planetId}| replace the whole resource |
 | PATCH |  /planets/{planetId}| partial update |
 | DELETE |  /planets/{planetId}| delete |
+
 **Sub-collections for Planets**
 |Method| Endpoint |Comment |
 |--|--|--|
